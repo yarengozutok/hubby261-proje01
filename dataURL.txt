@@ -1,9 +1,1 @@
-https://www.hacettepe.edu.tr/
-https://acikerisim.yok.gov.tr/acik-erisim
-https://hadi.hacettepe.edu.tr/
-https://stackoverflow.com/
-http://www.bby.hacettepe.edu.tr/
-https://creativecommons.org/
-https://madran.net/
-https://library.hacettepe.edu.tr/
-
+https://madran.net

@@ -34,7 +34,7 @@ class DataURL:
         if os.stat(self.dataFile).st_size == 0:
             print("Üzgünüm...henüz kaydedilmiş adres yok!")
         else:
-           print("Kaydedilmiş adrsler var...")
+           print("Kaydedilmiş adresler var...")
            print("Kaydedilmiş adresleri listeliyorum!")
            time.sleep(1)
         for dataShow in dataOpen:

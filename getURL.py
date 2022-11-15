@@ -2,10 +2,10 @@ import os
 import time
 import urllib.request
 from bs4 import BeautifulSoup
-
 class GetURL:
 
-    dataFile = "dataUrl.txt"
+
+    dataFile = "dataURL.txt"
     getFile = "getURL.txt"
 
     def __init__(self):
@@ -26,6 +26,7 @@ class GetURL:
             webSite.close()
             soup = BeautifulSoup(webPage, 'html.parser')
             getOpen.write(dataGet.strip() + " - " + soup.title.contents[0] + "\n")
+            print(dataGet)
         dataOpen.close()
         getOpen.close()
 
